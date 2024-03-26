@@ -38,7 +38,7 @@ import { confirmDialog } from 'primereact/confirmdialog'; // To use confirmDialo
 import CompanySetupService from "src/services/Companysetup.service";
 import SubdepartmentService from "src/services/Subdepartment.service";
 import PolicyService from "src/services/policy.service";
-// import RiskDashboard from "../risk_dashboard /risk_dashboard";
+import RiskDashboard from "../risk_dashboard /risk_dashboard";
 import Policy_view from "./Policy_view";
 import { useRecoilState, useRecoilValue } from "recoil";
 import { selectedPolicyAtom } from "src/_state/selectedPolicyAtom";

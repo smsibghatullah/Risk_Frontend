@@ -50,7 +50,7 @@ import AuditReport from './views/Audit_Engagement/Audit_Report'
 import Reset_Password from './views/pages/login/Reset_Password'
 
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
-// const RiskDashboard = React.lazy(() => import('./views/'))
+const RiskDashboard = React.lazy(() => import('./views/risk_dashboard /risk_dashboard'))
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
 
@@ -118,7 +118,7 @@ const routes = [
   { path: '/Risk_Repository', name: 'RiskRepository', element: Risk_Repository },
   { path: '/Risk_Repositryview/:id', name: 'Risk Repositry ', element: RiskView },
   { path: '/Risk_Repositryupdate/:id', name: 'Risk Repositry ', element: RiskUpdate },
-  // { path: '/RiskDashboard', name: 'RiskDashboard', element: RiskDashboard },
+  { path: '/RiskDashboard', name: 'RiskDashboard', element: RiskDashboard },
   { path: '/Riskmatrix', name: 'Risk Matrix', element: RiskMatrix },
   { path: '/policydashboard', name: 'Policy Dashboard', element: PolicyDashboard },
   { path: '/RiskmatrixAdd', name: 'Risk Matrix Add', element: RiskmatrixAdd },
