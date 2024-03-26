@@ -1,0 +1,21 @@
+.register_back{
+    background-image: url('../../../assets/images/avatars/loginimage.jpg');
+     background-size: 820px;
+    background-position-x: center;
+    padding: 100px;
+    /* background-position-y: center; */
+}
+.cards{
+    border-top: 5px solid #321fdb;
+    border-bottom: 5px solid #321fdb;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+ border-radius: 5px;
+}
+/* .cards:hover{
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} */
+.back_image{
+ background-color: gray;
+}

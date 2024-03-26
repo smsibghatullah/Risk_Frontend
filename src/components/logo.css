@@ -1,0 +1,84 @@
+.logo_png{
+    margin-left: 20px !important;
+}
+
+.inactive_row{
+    color : rgb(199, 93, 93) !important
+}
+
+
+.divcorner {
+    /* width: 200px; */
+    /* min-height: 200px; */
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    background: white;
+    
+  }
+
+.logouticon:hover{
+  color: black;
+}
+.Help:hover{
+  color: rgb(126, 26, 26);
+}
+
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* tr:nth-child(even) {
+  background-color: #dddddd;
+} */
+
+.sidebar-nav .nav-link{
+  white-space: normal !important;
+  }
+  .date-picker {
+    width: 100%;
+    height: 40px;
+    border :1px  solid var(--cui-input-border-color, #b1b7c1);
+    border-radius: 5px;
+   padding: 10px;
+  }
+  .sidebar {
+    --cui-sidebar-width: 19rem;
+    zoom: 85%  !important;
+  }
+  /* .card {
+    zoom: 85%  !important;
+  } */
+  .CCardBody{
+    zoom: 85%  !important;
+  }
+  .header {
+    zoom: 85%  !important;
+  }
+  /* .p-multiselect-panel {
+    z-index: 1001 !important;
+    min-width: 1234px !important;
+    transform-origin: center bottom !important;
+    top: 401.559px !important;
+    left: 274.169px !important;
+} */
+.selected {
+  background-color: var(--cui-sidebar-nav-link-active-bg);
+  color: white;
+  padding: 5px;
+}
+.risk :hover{
+  background-color: var(--cui-sidebar-nav-link-active-bg);
+  color: white;
+  padding: 5px;
+}
+
+
